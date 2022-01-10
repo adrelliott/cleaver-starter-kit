@@ -1,0 +1,17 @@
+{
+    "view": "layout.default",
+    "path": "/",
+    "title": "Oblong - where people matter",
+    "description": "Oblong is a people-based consultancy",
+    "sections": [
+        {
+            "slug": "hero",
+            "path": "homepage.hero-01"
+        },
+
+        {
+            "slug": "trust-ribbon",
+            "path": "homepage.trust-ribbon"
+        }
+    ]
+}

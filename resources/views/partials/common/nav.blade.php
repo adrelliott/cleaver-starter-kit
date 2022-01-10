@@ -1,0 +1,7 @@
+<h1 x-data="{ message: 'I ❤️ Alpine' }" x-text="message"></h1>
+
+<div x-data="{ count: 0 }">
+    <button x-on:click="count++">Increment</button>
+ 
+    <span x-text="count"></span>
+</div>
