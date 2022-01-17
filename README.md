@@ -13,10 +13,14 @@
 
 ## Getting Started
 
-1. Clone this repo `git clone https://github.com/adrelliott/cleaver-starter-kit.git <folder-name>`
-2. Do a `composer update`
-3. Run `npm install`
-4. Run `npm run dev` for local build
+1. Click the green button above that says _Use This Template_
+2. Choose a name for the new project & save
+3. Copy the repo URL from the dropdown under the _Save_ button
+4. Clone the repo locally using the command `git clone <repo-url-you-just-copied> <your-chosen-folder-name>`
+5. `cd` into the new folder 
+6. Do a `composer update`
+7. Run `npm install`
+8. Run `npm run dev` for local build
 
 To serve locally:
 
