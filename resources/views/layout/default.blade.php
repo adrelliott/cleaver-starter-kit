@@ -14,4 +14,12 @@
     </div>
 </div>
 
+<div class="prose"> 
+    <h3>Test if Alpine is working:</h3>
+    <div x-data="{ count: 0 }">
+        <button x-on:click="count++">Clikc this button and see the count go up</button>
+        COUNT:<span x-text="count"></span>
+    </div>
+</div>
+
 @include('partials.common.footer')

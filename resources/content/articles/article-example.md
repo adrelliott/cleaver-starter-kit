@@ -11,4 +11,4 @@ When you build your site, **all of the keys** in the entire JSON file, or the he
 The template used is specified in the _view variable_ (*via the structure in your resources directory*). The ~fully-parsed~ HTML from the Markdown content under the heading area is accessible through a single variable called $content.
 
 ## Subhead
-hshshg hd hd
+Subhead here

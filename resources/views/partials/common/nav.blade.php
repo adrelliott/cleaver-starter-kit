@@ -1,7 +1,3 @@
-<h1 x-data="{ message: 'I ❤️ Alpine' }" x-text="message"></h1>
-
-<div x-data="{ count: 0 }">
-    <button x-on:click="count++">Increment</button>
- 
-    <span x-text="count"></span>
+<div class="prose">
+    <p>Amend this navbar at `views/partials/comon/nav.blade.php`</p>
 </div>
