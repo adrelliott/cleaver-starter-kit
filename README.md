@@ -20,8 +20,10 @@
 
 To serve locally:
 
-`cd dist`
+`cd dist` then run
 `valet link <project-name>`
+
+Visit at <project-name>.test.
 
 ## Deploying to Cloudflare Pages
 
