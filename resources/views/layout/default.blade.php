@@ -17,7 +17,7 @@
 <div class="prose"> 
     <h3>Test if Alpine is working:</h3>
     <div x-data="{ count: 0 }">
-        <button x-on:click="count++">Clikc this button and see the count go up</button>
+        <button x-on:click="count++" class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded ml-8">Click this button and see the count go up</button>
         COUNT:<span x-text="count"></span>
     </div>
 </div>
