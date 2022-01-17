@@ -18,6 +18,11 @@
 3. Run `npm install`
 4. Run `npm run dev` for local build
 
+To serve locally:
+
+`cd dist`
+`valet link <project-name>`
+
 ## Deploying to Cloudflare Pages
 
 As mentioned, Cloudflare Pages doesn't seem to like this, so instead of running the build command on Cloudflare, run `npm run production` locally, and set the root folder to `dist` on the project setup page on Cloudflare.
