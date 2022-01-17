@@ -27,7 +27,11 @@ To serve locally:
 `cd dist` then run
 `valet link <project-name>`
 
-Visit at <project-name>.test.
+Visit at `<project-name>.test`.
+
+Pushing changes:
+
+`git push`
 
 ## Deploying to Cloudflare Pages
 
