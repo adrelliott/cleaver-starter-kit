@@ -13,10 +13,17 @@
 
 ## Getting Started
 
-1. Clone this repo
+1. Clone this repo `git clone https://github.com/adrelliott/cleaver-starter-kit.git <folder-name>`
 2. Do a `composer update`
 3. Run `npm install`
 4. Run `npm run dev` for local build
+
+To serve locally:
+
+`cd dist` then run
+`valet link <project-name>`
+
+Visit at <project-name>.test.
 
 ## Deploying to Cloudflare Pages
 
