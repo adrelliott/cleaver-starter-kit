@@ -22,16 +22,41 @@
 7. Run `npm install`
 8. Run `npm run dev` for local build
 
-To serve locally:
+**To serve locally:**
 
 `cd dist` then run
 `valet link <project-name>`
 
 Visit at `<project-name>.test`.
 
-Pushing changes:
+**Pushing changes:**
 
 `git push`
+
+**Using BrowserSync:**
+
+Amend the `proxy` property in `webpack.mix.js` to the name valet has linked to.
+
+E.g.
+
+````
+
+    .browserSync({
+        files: [
+            "dist/**/*",
+            {
+                match: ["resources/**/*"],
+                fn: function(event, file) {
+                    command.run('php cleaver build', (error, stdout, stderr) => {
+                        console.log(error ? stderr : stdout);
+                    });
+                }
+            }
+        ],
+        proxy: 'oblonghq.test',  //Change this to the valet link name of your project
+        notify: false,
+        open: false
+````
 
 ## Deploying to Cloudflare Pages
 
